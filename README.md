@@ -13,9 +13,9 @@
    Cumple con todos los entregables obligatorios definidos en la prueba técnica.
 
 ---
-
+```text
 ## Arquitectura de la solución
-
+      
    API Mock (REST - mockapi.io)
          ↓
    ETL Batch (Python)
@@ -25,7 +25,7 @@
          ↓
    Modelo dimensional (DDL SQL)
 
-
+```
 ---
 
 
@@ -61,7 +61,7 @@ etl-test/
 │
 └── docs/
     └── design_notes.md     # Decisiones de diseño
-
+```
 ---
 
 ## Cómo ejecutar la solución
