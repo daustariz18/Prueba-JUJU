@@ -30,33 +30,33 @@
 
 ## Estructura del proyecto
 
-   etl-test/
-   ├── README.md
-   ├── requirements.txt
-   │
-   ├── sample_data/
-   │ ├── api_orders.json # Ejemplo de payload de la API
-   │ ├── users.csv # Datos de referencia (dim_user)
-   │ └── products.csv # Datos de referencia (dim_product)
-   │
-   ├── src/
-   │ ├── etl_job.py # Orquestador principal de la ETL
-   │ ├── api_client.py # Cliente para consumo de la API REST
-   │ ├── transforms.py # Lógica de transformación y normalización
-   │ └── db.py # Abstracción de carga / persistencia
-   │
-   ├── sql/
-   │ └── redshift-ddl.sql # DDL compatible con Redshift / DuckDB
-   │
-   ├── tests/
-   │ └── test_transforms.py # Tests unitarios (pytest)
-   │
-   ├── output/
-   │ ├── raw/ # Datos originales desde la API
-   │ └── curated/ # Datos transformados para analítica
-   │
-   └── docs/
-   └── design_notes.md # Decisiones de diseño
+etl-test/
+├── README.md
+├── requirements.txt
+│
+├── sample_data/
+│ ├── api_orders.json # Ejemplo de payload de la API
+│ ├── users.csv # Datos de referencia (dim_user)
+│ └── products.csv # Datos de referencia (dim_product)
+│
+├── src/
+│ ├── etl_job.py # Orquestador principal de la ETL
+│ ├── api_client.py # Cliente para consumo de la API REST
+│ ├── transforms.py # Lógica de transformación y normalización
+│ └── db.py # Abstracción de carga / persistencia
+│
+├── sql/
+│ └── redshift-ddl.sql # DDL compatible con Redshift / DuckDB
+│
+├── tests/
+│ └── test_transforms.py # Tests unitarios (pytest)
+│
+├── output/
+│ ├── raw/ # Datos originales desde la API
+│ └── curated/ # Datos transformados para analítica
+│
+└── docs/
+└── design_notes.md # Decisiones de diseño
 
 ---
 
