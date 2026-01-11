@@ -14,7 +14,7 @@
 
 ---
 ```text
-## Arquitectura de la solución
+## 🏗️ Arquitectura de la solución
       
    API Mock (REST - mockapi.io)
          ↓
@@ -26,8 +26,6 @@
    Modelo dimensional (DDL SQL)
 
 ```
----
-
 
 ---
 
