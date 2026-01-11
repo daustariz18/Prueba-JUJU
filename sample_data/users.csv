@@ -1,0 +1,7 @@
+user_id,email,country,created_at
+100000001,user1@test.com,US,2025-01-01
+100000002,user2@test.com,CO,2025-02-15
+100000003,user3@test.com,MX,2025-03-10
+100000004,user4@test.com,ES,2025-03-10
+100000005,user5@test.com,US,2025-03-10
+100000006,user6@test.com,CO,2025-03-10
