@@ -73,7 +73,7 @@ etl-test/
 
    ```bash
    pip install -r requirements.txt
-
+   ```
 
    ## 2 Fuente de datos – API Mock
 
@@ -91,14 +91,14 @@ etl-test/
    Posteriormente, estos datos fueron ajustados para alinearlos con el modelo esperado por la prueba técnica y permitir una correcta transformación analítica.
 
    Los ajustes incluyeron normalización de tipos, enriquecimiento del detalle de ítems y estandarización de formatos de fecha.
-
+   ---
    ## 3 Ejecución del proceso ETL
 
       Desde la raíz del proyecto ejecutar:
 
       ```bash
       python src/etl_job.py
-   
+      
 
 ## El proceso ETL ejecuta las siguientes etapas:
 
